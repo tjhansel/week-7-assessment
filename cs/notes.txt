@@ -25,4 +25,4 @@ mediumArray || 179.1 μs || 154.8 μs
 largeArray || 9.275 ms || 502.2 μs
 extraLargeArray || 1.0424014 s || 3.0225 ms
 
-As far as I can tell the "append" function is the more efficient for scaling purposes. The biggest indicator of this is the returned time for processing. The reason for the longer time is that the “.unshift” function adds the new numbers generated to the beginning of the array. This causes the for loop to review all the new numbers added to the array as the function continues multiplying. 
+As far as I can tell the "append" function is the more efficient for scaling purposes. The biggest indicator of this is the returned time for processing. The reason for the longer time is that the “.unshift” function adds the new numbers generated to the beginning of the array. This causes the for loop to review all the new numbers added to the array as the function continues multiplying. Over all the functions are O(n) runtime and liner space for space complexity.
