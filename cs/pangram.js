@@ -10,3 +10,5 @@ function pangram(str){
         }
     }return true
 }
+console.log(pangram("The quick brown fox jumps over the lazy dog!"))
+console.log(pangram("I like cats, but not mice"))
